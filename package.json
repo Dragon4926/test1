@@ -1,0 +1,19 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "Simple qr generator with user based file distribution",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm start",
+    "start": "node server.js"
+  },
+  "author": "@dragon4926",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.3"
+  }
+}
